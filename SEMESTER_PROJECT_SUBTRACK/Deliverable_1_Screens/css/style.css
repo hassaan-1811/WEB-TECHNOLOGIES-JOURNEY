@@ -1,0 +1,14 @@
+body { background-color: #f5f7f4; color: #193c35; }
+.sidebar { background-color: white; }
+.brand { color: #21765a; font-weight: bold; text-decoration: none; }
+.sidebar .nav-link { color: #65766c; border-radius: 8px; padding: 12px; }
+.sidebar .nav-link.active { color: #21765a; background-color: #e9f2eb; font-weight: bold; }
+.card { border-color: #e4eae3; border-radius: 12px; }
+.hero { background-color: #e9f0e1; border-radius: 12px; }
+.btn-success { background-color: #21765a; border-color: #21765a; }
+.text-success { color: #21765a !important; }
+.table th { color: #74827c; background-color: #f8faf7; font-size: 12px; }
+.table td, .table th { padding: 16px; vertical-align: middle; }
+.service-icon { width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center; border-radius: 8px; font-weight: bold; }
+.auth-card { max-width: 440px; }
+@media (min-width: 992px) { .sidebar { min-height: 100vh; } }
